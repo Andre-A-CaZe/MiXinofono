@@ -85,7 +85,7 @@ class MyHomePage extends StatelessWidget {
             child: TextButton(
               style: TextButton.styleFrom(padding: EdgeInsets.zero),
               child: Container(
-                color: Colors.purple,
+                color: const Color.fromARGB(255, 173, 91, 188),
               ),
               onPressed: () {
                 Audio sonido1 = Audio.load('assets/sounds/assets_note7.mp3');
